@@ -5,6 +5,8 @@ module.exports = {
   },
   extends: [
     'airbnb',
+    "eslint:recommended",
+    "plugin:react/recommended",
     'prettier',
     'prettier/react'
   ],
@@ -30,6 +32,7 @@ module.exports = {
       'warn',
       { extensions: ['.jsx', '.js']}
     ],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    "react/state-in-constructor":  'off',
   },
 };

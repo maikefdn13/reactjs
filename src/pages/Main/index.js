@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 
 import api from '../../services/api';
 
-import { Container, Form, SubimirButton, List } from './styles';
+import Container from '../../components/Container';
+
+import { Form, SubimirButton, List } from './styles';
 
 class Main extends Component {
   // eslint-disable-next-line react/state-in-constructor
